@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --color-white: #f9fafa;
+  --color-blue: #255876;
+  --color-gray: #d5d8d9;
+}
+
+body {
+  background-color: var(--color-white);
+  color: #1a2e3b;
+}
+
+@layer components {
+  .input {
+    @apply w-full px-3 py-2 border rounded-md text-sm focus:outline-none focus:ring-2 focus:border-transparent transition-colors;
+    background-color: #ffffff;
+    border-color: var(--color-gray);
+    color: #1a2e3b;
+  }
+  .input::placeholder {
+    color: #9aa5ab;
+  }
+  .input:focus {
+    --tw-ring-color: #255876;
+  }
+  .btn-primary {
+    @apply px-4 py-2 disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors;
+    background-color: var(--color-blue);
+  }
+  .btn-primary:hover {
+    background-color: #1d4460;
+  }
+  .btn-ghost {
+    @apply px-4 py-2 text-sm rounded-lg transition-colors;
+    background-color: #e8edf0;
+    color: #255876;
+  }
+  .btn-ghost:hover {
+    background-color: var(--color-gray);
+    color: #1a2e3b;
+  }
+}

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="SVDSystem.Api/SVDSystem.Api.csproj" />
+  <Project Path="SVDSystem.Application/SVDSystem.Application.csproj" />
+  <Project Path="SVDSystem.Benchmark/SVDSystem.Benchmark.csproj" />
+  <Project Path="SVDSystem.Domain/SVDSystem.Domain.csproj" />
+  <Project Path="SVDSystem.Infrastructure/SVDSystem.Infrastructure.csproj" />
+  <Project Path="SVDSystem.Web.Api/SVDSystem.Web.Api.csproj" />
+</Solution>
